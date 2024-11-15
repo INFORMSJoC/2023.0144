@@ -59,8 +59,6 @@ Be sure to clean all the dependencies and executable files before building a dif
 
 ## Source File Description
 
-Here we only describe the source files in the folder `RPD`, while the meaning of the files in folder `PD` can be deduced in a similar way.
-
 - `RPD\src\path_equilibration.h`: the header file for `RPD\src\path_equilibration.cpp`.
 - `RPD\src\path_equilibration_rho.h`: the header file for `RPD\src\path_equilibration_rho.cpp`.
 - `RPD\src\bbstep_PGM.h`: the header file for `RPD\src\bbstep_PGM.cpp`.
