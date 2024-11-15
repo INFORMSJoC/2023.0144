@@ -1,0 +1,4 @@
+Time,Gap value,Tolling charge gap value,Rho,System objective value,Iteration
+0,1.79769e+308,1.79769e+308,100,1.44529e+06,0
+25.6487,2.60618,0.0376537,100,1.41821e+06,1
+41.2852,0.858107,0,1000,1.41885e+06,2
