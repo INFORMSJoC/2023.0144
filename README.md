@@ -18,7 +18,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ```
 @misc{Guo2024,
-  author =        {Lei Guo, Wenxin Zhou, Xiaolei Wang, Hai Yang and Tijun Fan},
+  author =        {Lei Guo and Wenxin Zhou and Xiaolei Wang and Hai Yang and Tijun Fan},
   publisher =     {INFORMS Journal on Computing},
   title =         {Penalty decomposition methods for second-best congestion pricing problems on large-scale networks},
   year =          {2024},
