@@ -59,6 +59,18 @@ Be sure to clean all the dependencies and executable files before building a dif
 
 ## Source File Description
 
+- `PD\src\path_equilibration.h`: the header file for `PD\src\path_equilibration.cpp`.
+- `PD\src\path_equilibration_rho.h`: the header file for `PD\src\path_equilibration_rho.cpp`.
+- `PD\src\bbstep_PGM.h`: the header file for `PD\src\bbstep_PGM.cpp`.
+- `PD\src\cost.hpp`: the header file containing the link performance function that used to solve either lower-level traffic assignment problem or Problem (11).
+- `PD\src\path.hpp`: the header file containing the structure of the path.
+- `PD\src\graph.hpp`: the header file containing the structure of the graph.
+- `PD\src\io.hpp`: the header file to handle input/output streams.
+- `PD\src\utils.hpp`: the header file containing auxiliary functions.
+- `PD\src\path_equilibration.cpp`: the source codes for solving the lower-level traffic assignment problem with given $u$.
+- `PD\src\path_equilibration_rho.cpp`: the source codes for solving Problem (11) (i.e., step 1 of Algorithm 1) to update $v$.
+- `PD\src\bbstep_PGM.cpp`: the source codes for solving Problem (12) (i.e., step 2 of Algorithm 1) to update $u$.
+- `PD\main.cpp`: the source codes of Algorithm PD.
 - `RPD\src\path_equilibration.h`: the header file for `RPD\src\path_equilibration.cpp`.
 - `RPD\src\path_equilibration_rho.h`: the header file for `RPD\src\path_equilibration_rho.cpp`.
 - `RPD\src\bbstep_PGM.h`: the header file for `RPD\src\bbstep_PGM.cpp`.
